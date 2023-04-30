@@ -1,0 +1,170 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+          <option value="E501" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="input" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="programmmm.MyWidget.label_2" />
+          <option value="programmmm.MyWidget.pushButton_2" />
+          <option value="programmmm.MyWidget.pushButton_3" />
+          <option value="programmmm.MyWidget.pushButton" />
+          <option value="programmmm.MyWidget.pushButton_7" />
+          <option value="programmmm.MyWidget.pushButton_8" />
+          <option value="programmmm.MyWidget.pushButton_9" />
+          <option value="programmmm.MyWidget.pushButton_4" />
+          <option value="programmmm.MyWidget.pushButton_5" />
+          <option value="programmmm.MyWidget.pushButton_6" />
+          <option value="programmmm.MyWidget.label_3" />
+          <option value="programmmm.MyWidget.label_4" />
+          <option value="programmmm.MyWidget.label_5" />
+          <option value="programmmm.Window2.text" />
+          <option value="programmmm.MyWidget1.pushButton" />
+          <option value="programmmm.MyWidget1.pushButton_2" />
+          <option value="programmmm.MyWidget1.pushButton_3" />
+          <option value="programmmm.MyWidget1.label_5" />
+          <option value="programmmm.MyWidget1.label_6" />
+          <option value="programmmm.MyWidget1.label_3" />
+          <option value="programmmm.MyWidget1.label" />
+          <option value="programmmm.MyWidget1.label_4" />
+          <option value="programmmm.MyWidget2.horizontalSlider" />
+          <option value="programmmm.MyWidget2.horizontalSlider_2" />
+          <option value="programmmm.MyWidget2.pushButton" />
+          <option value="programmmm.MyWidget2.pushButton_2" />
+          <option value="programmmm.MyWidget2.label" />
+          <option value="programmmm.MyWidget2.label_9" />
+          <option value="programmmm.MyWidget2.lineEdit" />
+          <option value="programmmm.MyWidget2.label_4" />
+          <option value="programmmm.MyWidget2.label_6" />
+          <option value="caesar.MyWidget2.label_6" />
+          <option value="caesar.MyWidget2.lineEdit" />
+          <option value="caesar.MyWidget2.label_9" />
+          <option value="caesar.MyWidget2.label_4" />
+          <option value="caesar.MyWidget2.label" />
+          <option value="caesar.MyWidget2.horizontalSlider_2" />
+          <option value="caesar.MyWidget2.horizontalSlider" />
+          <option value="caesar.MyWidget2.pushButton_2" />
+          <option value="caesar.MyWidget2.pushButton" />
+          <option value="knb.MyWidget1.pushButton" />
+          <option value="knb.MyWidget1.pushButton_2" />
+          <option value="knb.MyWidget1.pushButton_3" />
+          <option value="knb.MyWidget1.label_5" />
+          <option value="knb.MyWidget1.label_6" />
+          <option value="knb.MyWidget1.label_3" />
+          <option value="knb.MyWidget1.label" />
+          <option value="knb.MyWidget1.label_4" />
+          <option value="PyQt5.uic" />
+          <option value="programmmm.Azbuka_Morze.text" />
+          <option value="main.Main.button_start" />
+          <option value="main.Main.button_break" />
+          <option value="main.Main.label_picture_morse" />
+          <option value="main.Main.label_picture_ceasar" />
+          <option value="main.Main.label_picture_rps" />
+          <option value="main.Main.button_open_morse" />
+          <option value="main.Main.button_open_ceasar" />
+          <option value="main.Main.button_open_rps" />
+          <option value="main.Morse.button_convert" />
+          <option value="main.Morse.edit_input" />
+          <option value="main.Morse.radio_lang_rus" />
+          <option value="main.Morse.radio_to_morse" />
+          <option value="main.Morse.text_converted" />
+          <option value="main.Ceasar.slider_shift" />
+          <option value="main.Ceasar.button_convert" />
+          <option value="main.Ceasar.button_save_to_file" />
+          <option value="main.Ceasar.label_shift_value" />
+          <option value="main.Ceasar.edit_input" />
+          <option value="main.Ceasar.radio_encode" />
+          <option value="main.Ceasar.text_converted" />
+          <option value="main.RockPaperScissors.label_rock" />
+          <option value="main.RockPaperScissors.label_scissors" />
+          <option value="main.RockPaperScissors.label_paper" />
+          <option value="main.RockPaperScissors.label_computer_picture" />
+          <option value="main.RockPaperScissors.button_rock" />
+          <option value="main.RockPaperScissors.button_scissors" />
+          <option value="main.RockPaperScissors.button_paper" />
+          <option value="main.RockPaperScissors.button_statistics" />
+          <option value="main.RockPaperScissors.label_computer_choice" />
+          <option value="main.RockPaperScissors.label_result" />
+          <option value="main.Statistics.label_count" />
+          <option value="main.Statistics.table_widget_statistics" />
+          <option value="pygame.sprite.Sprite.get_event" />
+          <option value="pygame.sprite.Sprite.update_image" />
+          <option value="pygame.sprite.Sprite.set_position" />
+          <option value="builtins.input.txt" />
+          <option value="pygame.sprite.Sprite.get_position" />
+          <option value="main.MyWidget.widget" />
+          <option value="main.MyWidget.spinBox" />
+          <option value="main.MyWidget.spinBox_2" />
+          <option value="main.MyWidget.lineEdit" />
+          <option value="main.MyWidget.pushButton" />
+          <option value="main.do.*" />
+          <option value="main.MyWidget.d" />
+          <option value="main.mi.clicked" />
+          <option value="main.re.clicked" />
+          <option value="main.fa.clicked" />
+          <option value="main.sol.clicked" />
+          <option value="main.lya.clicked" />
+          <option value="main.si.clicked" />
+          <option value="main.MyWidget.setupUi" />
+          <option value="main.MyWidget.re" />
+          <option value="main.MyWidget.mi" />
+          <option value="main.MyWidget.fa" />
+          <option value="main.MyWidget.sol" />
+          <option value="main.MyWidget.lya" />
+          <option value="main.MyWidget.si" />
+          <option value="main.MyWidget.do_2" />
+          <option value="int.*" />
+          <option value="pygame.sprite.Sprite.type" />
+          <option value="pygame.sprite.Sprite.give_self" />
+          <option value="pygame.sprite.Sprite.armor_type" />
+          <option value="pygame.sprite.Sprite.*" />
+          <option value="pygame.sprite.Sprite.is_attacking" />
+          <option value="PyQt5.Qt.Key_PageUp" />
+          <option value="PyQt5.Qt.Key_PageDown" />
+          <option value="PyQt5.Qt.Key_Up" />
+          <option value="main1.MyMap.image" />
+          <option value="main1.MyMap.layer" />
+          <option value="main1.MyMap.edit_x" />
+          <option value="main1.MyMap.edit_y" />
+          <option value="main1.MyMap.mashtab" />
+          <option value="main1.MyMap.ask_info" />
+          <option value="main1.MyMap.post_indx" />
+          <option value="main1.MyMap.ask" />
+          <option value="main1.MyMap.pushButton" />
+          <option value="main1.MyMap.pushButton_2" />
+          <option value="main1.MyMap.del_ask" />
+          <option value="ymaps.Map" />
+          <option value="str.remove0" />
+          <option value="list.*" />
+          <option value="sqlalchemy.testing.pickleable.User.age" />
+          <option value="sqlalchemy.testing.pickleable.User.surname" />
+          <option value="sqlalchemy.testing.pickleable.User.id" />
+          <option value="sqlalchemy.testing.pickleable.User.name" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

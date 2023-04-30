@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>Список работ</h1>
+	<table class="table table-dark table-bordered table-sm">
+		<thead>
+			<tr>
+				<th scope="col">Id</th>
+				<th scope="col">Название деятельности</th>
+				<th scope="col">Руководитель команды</th>
+				<th scope="col">Продолжительность</th>
+				<th scope="col">Список сотрудников</th>
+				<th scope="col">Дата начала</th>
+				<th scope="col">Дата окончания</th>
+				<th scope="col">Закончена</th>
+				<th scope="col"></th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for job, leader in jobs%}
+				<tr>
+					<td>{{ job.id }}</td>
+					<td>{{ job.job }}</td>
+					<td>{{ leader.surname }} {{ leader.name }}</td>
+					<td>{{ job.work_size }}</td>
+					<td>{{ job.collaborators }}</td>
+					<td>{{ job.start_date }}</td>
+					<td>{{ job.end_date }}</td>
+					<td>{{ job.is_finished }}</td>
+					<td>
+						{% if current_user.is_authenticated and leader.id == current_user.id %}
+							<div>
+								<a class="btn btn-warning" href="/editJobs/{{job.id}}">Изменить</a>
+								<a class="btn btn-danger" href="/deleteJobs/{{job.id}}">Удалить</a>
+							</div>
+						{% endif %}
+					</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	{% if current_user.is_authenticated %}
+		<div>
+			<a class="btn btn-primary" href="/addJobs">Добавить работу</a>
+		</div>
+	{% else %}
+		<div>
+			<a class="btn btn-success" href="/login">Для добавления работы войдите в аккаунт</a>
+		</div>
+	{% endif %}
+{% endblock %}
